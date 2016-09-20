@@ -21,6 +21,18 @@ These schemas will be combined into a [datapackage.json](https://github.com/Step
 ## Preparation
 The data was downloaded from the source and then uploaded to GitHub.
 
+## Tests
+The focus of the tests is to ensure the schemas are correct. The [tests](https://github.com/Stephen-Gates/bicycle-counts/tree/master/tests) are invalid data that is used to ensure the schema detects all errors (e.g. incorrect [types](http://specs.frictionlessdata.io/json-table-schema/#field-types-and-formats) and violated [constraints](http://specs.frictionlessdata.io/json-table-schema/#field-constraints)).
+
+## Results
+The [results](https://github.com/Stephen-Gates/bicycle-counts/blob/master/results/results.md) can be verified using links to  [Good Tables](http://goodtables.okfnlabs.org). Tests include:
+- testing the valid data without a schema
+- testing the valid data with a schema
+- testing the invalid data with a schema
+
+Good Tables doesn't check all types of errors (yet). Somethings not checked include:
+- Foreign keys. (See Good Tables [#17](https://github.com/frictionlessdata/goodtables/issues/17),  [#8](https://github.com/frictionlessdata/goodtables/issues/8))
+- Some constraints (See Good Tables[#55](https://github.com/frictionlessdata/goodtables/issues/55))
 ## Schemas
 The [schemas](https://github.com/Stephen-Gates/bicycle-counts/tree/master/schemas) were created using [Data Packagist](http://datapackagist.okfnlabs.org). Using Data Packagist:
 
