@@ -1,5 +1,5 @@
 SITE_ID,DESCRIPTION,MONTHS,YEARS,HOURS,SATURDAY,SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY
--1,"Gateway Motorway South, Murarrie",January,2016,0,0,0,0,1,1,1,1
+1,"Gateway Motorway South, Murarrie",January,2016,0,0,0,0,1,1,1,1
 a,"Gateway Motorway South, Murarrie",January  ,2016,1,0,0,1,1,1,1,0
 ,"Gateway Motorway South, Murarrie",January  ,2016,2,1,1,1,1,1,1,1
 9,,January  ,2016,3,1,40,0,0,0,0,0
@@ -18,12 +18,12 @@ a,"Gateway Motorway South, Murarrie",January  ,2016,1,0,0,1,1,1,1,0
 9,"Gateway Motorway South, Murarrie",January  ,2016,16,4,5,9,10,11,12,9
 9,"Gateway Motorway South, Murarrie",January  ,2016,17,4,13,16,15,19,21,10
 9,"Gateway Motorway South, Murarrie",January  ,2016,18,5,6,17,15,18,21,9
-9,"Gateway Motorway South, Murarrie",January  ,2016,19,3,3,2,5,8,5,4
+-9,"Gateway Motorway South, Murarrie",January  ,2016,19,3,3,2,5,8,5,4
 9,"Gateway Motorway South, Murarrie",January  ,2016,20,0,1,2,2,3,2,2
 9,"Gateway Motorway South, Murarrie",January  ,2016,21,0,2,1,2,2,2,1
 9,"Gateway Motorway South, Murarrie",January  ,2016,22,0,0,1,0,1,0,0
 9,"Gateway Motorway South, Murarrie",January  ,2016,23,1,0,0,1,1,1,0
-9,"Gateway Motorway South, Murarrie",February ,2016,0,1,2,0,0,1,0,1
+9,"Gateway Motorway South, Murarrie",February,2016,0,1,2,0,0,1,0,1
 9,"Gateway Motorway South, Murarrie",February ,2016,1,0,0,0,1,0,1,0
 9,"Gateway Motorway South, Murarrie",February ,2016,2,0,0,0,0,0,0,1
 9,"Gateway Motorway South, Murarrie",February ,2016,3,0,0,0,0,0,0,0
@@ -47,7 +47,7 @@ a,"Gateway Motorway South, Murarrie",January  ,2016,1,0,0,1,1,1,1,0
 9,"Gateway Motorway South, Murarrie",February ,2016,21,2,1,2,2,1,1,2
 9,"Gateway Motorway South, Murarrie",February ,2016,22,1,1,0,0,0,0,0
 9,"Gateway Motorway South, Murarrie",February ,2016,23,3,0,0,1,1,1,1
-9,"Gateway Motorway South, Murarrie",March    ,2016,0,0,0,0,0,0,1,0
+9,"Gateway Motorway South, Murarrie",March,2016,0,0,0,0,0,0,1,0
 9,"Gateway Motorway South, Murarrie",March    ,2016,1,0,0,0,1,0,0,0
 9,"Gateway Motorway South, Murarrie",March    ,2016,2,0,0,1,0,0,0,0
 9,"Gateway Motorway South, Murarrie",March    ,2016,3,0,0,0,0,0,0,0
@@ -71,7 +71,7 @@ a,"Gateway Motorway South, Murarrie",January  ,2016,1,0,0,1,1,1,1,0
 9,"Gateway Motorway South, Murarrie",March    ,2016,21,0,0,1,3,2,0,4
 9,"Gateway Motorway South, Murarrie",March    ,2016,22,0,0,1,1,1,1,2
 9,"Gateway Motorway South, Murarrie",March    ,2016,23,2,0,1,0,0,0,0
-9,"Gateway Motorway South, Murarrie",April    ,2016,0,0,0,0,1,0,1,1
+9,"Gateway Motorway South, Murarrie",April,2016,0,0,0,0,1,0,1,1
 9,"Gateway Motorway South, Murarrie",April    ,2016,1,0,0,0,0,0,0,0
 9,"Gateway Motorway South, Murarrie",April    ,2016,2,1,0,0,0,0,0,0
 9,"Gateway Motorway South, Murarrie",April    ,2016,3,1,1,0,0,0,0,0
@@ -95,7 +95,7 @@ a,"Gateway Motorway South, Murarrie",January  ,2016,1,0,0,1,1,1,1,0
 9,"Gateway Motorway South, Murarrie",April    ,2016,21,0,1,1,1,1,1,4
 9,"Gateway Motorway South, Murarrie",April    ,2016,22,1,0,2,1,0,0,0
 9,"Gateway Motorway South, Murarrie",April    ,2016,23,2,0,0,0,0,2,0
-9,"Gateway Motorway South, Murarrie",May      ,2016,0,0,0,0,1,,,
+9,"Gateway Motorway South, Murarrie",May,2016,0,0,0,0,1,,,
 9,"Gateway Motorway South, Murarrie",May      ,2016,1,0,0,0,0,0,0,0
 9,"Gateway Motorway South, Murarrie",May      ,2016,2,0,0,0,0,0,0,0
 9,"Gateway Motorway South, Murarrie",May      ,2016,3,0,0,0,0,,,0
@@ -119,7 +119,7 @@ a,"Gateway Motorway South, Murarrie",January  ,2016,1,0,0,1,1,1,1,0
 9,"Gateway Motorway South, Murarrie",May      ,2016,21,1,0,1,1,,,3
 9,"Gateway Motorway South, Murarrie",May      ,2016,22,0,12,1,0,,,1
 9,"Gateway Motorway South, Murarrie",May      ,2016,23,0,0,0,0,,,1
-9,"Gateway Motorway South, Murarrie",June     ,2016,0,0,1,0,1,1,1,1
+9,"Gateway Motorway South, Murarrie",June,2016,0,0,1,0,1,1,1,1
 9,"Gateway Motorway South, Murarrie",June     ,2016,1,0,0,0,0,0,0,0
 9,"Gateway Motorway South, Murarrie",June     ,2016,2,0,0,0,0,0,0,0
 9,"Gateway Motorway South, Murarrie",June     ,2016,3,0,0,0,0,0,0,0
@@ -143,7 +143,7 @@ a,"Gateway Motorway South, Murarrie",January  ,2016,1,0,0,1,1,1,1,0
 9,"Gateway Motorway South, Murarrie",June     ,2016,21,1,0,1,3,3,2,1
 9,"Gateway Motorway South, Murarrie",June     ,2016,22,1,0,0,0,0,1,0
 9,"Gateway Motorway South, Murarrie",June     ,2016,23,2,0,0,0,0,1,0
-16,"Mowbray Park, East Brisbane",May      ,2016,0,2,0,1,0,2,3,1
+16,"Mowbray Park, East Brisbane",May,2016,0,2,0,1,0,2,3,1
 16,"Mowbray Park, East Brisbane",May      ,2016,1,1,5,0,1,2,0,0
 16,"Mowbray Park, East Brisbane",May      ,2016,2,0,1,0,0,0,0,0
 16,"Mowbray Park, East Brisbane",May      ,2016,3,0,0,0,0,1,0,0
