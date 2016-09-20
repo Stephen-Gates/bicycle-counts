@@ -1,15 +1,18 @@
 SITE_ID,DESCRIPTION,LONGITUDE,LATITUDE
 9,"Gateway Motorway South, Murarrie",153.105017,-27.451173
-16,"Mowbray Park, East Brisbane",153.045515,-27.478359
-20,"Park Road, Woolongabba",153.034085,-27.492824
-23,"Toowong Overpass, Brisbane",152.980331,-27.477508
+9,"Mowbray Park, East Brisbane",153.045515,-27.478359
+20,,153.034085,-27.492824
+23,"Toowong Overpass, Brisbane",162.980331,-37.477508
 27,"Northbank, Brisbane",153.026029,-27.477003
-29,Sandgate Road Northbound Near Julia Street ,153.059144,-27.39394
-30,Sandgate Road Southound Near Nothgate Road,153.059371,-27.393883
+29,Sandgate Road Northbound Near Julia Street ,,-27.39394
+30,Sandgate Road Southound Near Nothgate Road,153.059371,
 31,South Pine Road Northbound,152.96229,-27.32735
 32,South Pine Road Southbound near Cooparoo Road,152.967469,-27.324996
 33,"Normanby West, Brisbane",153.016162,-27.461188
 34,Gaza Road Cycle Path Adacent to M1,153.057637,-27.53469
 35,PA Hospital Cycle path near O'Keefe Street,153.036196,-27.496921
-36,"ANZAC Park, Toowong",152.98195,-27.4788
+36,"ANZAC Park, Toowong",152.98195
 37,Ted Smouth Bridge,153.06424,-27.284
+
+37,Ted Smouth Bridge,153.06424,-27.284
+,39,PA Hospital Cycle path near O'Keefe Street,152.036196,-27.496921
