@@ -7,9 +7,12 @@ The data is a snapshot and not planned to be kept up-to-date. The main purpose o
 ## Data
 The data is collected from bicycle counters across 14 active transport sites. As more sites come on line in the future these will be added to the dataset. These bicycle counters were installed in conjunction with the State Cycle Unit and are permanent installations that provide 24/7 bicycle counting data.
 
-Transport and Main Roads, Queensland Government, [Average Bicycle Counts by Day and Hour](https://data.qld.gov.au/dataset/average-bicycle-counts-by-day-and-hour), licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/au/) sourced on 20 September 2016.
+The [data](https://github.com/Stephen-Gates/bicycle-counts/tree/master/data) is made up of two of files.
 
-The [data](https://github.com/Stephen-Gates/bicycle-counts/tree/master/data) is made up of a number of files.
+1.
+Transport and Main Roads, Queensland Government, [Average Bicycle Counts by Day and Hour](https://data.qld.gov.au/dataset/average-bicycle-counts-by-day-and-hour/resource/48adfb7a-28d1-4b00-9330-fc73c9ecbdf2), licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/au/) sourced on 20 September 2016.
+
+2. [Active transport sites API](https://data.qld.gov.au/dataset/average-bicycle-counts-by-day-and-hour/resource/6b22171f-fb7a-477c-8225-654b118533cd), by Transport and Main Roads, Queensland Government, Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/au/) sourced on 20 September 2016
 
 Each data file is defined by a [schema](https://github.com/Stephen-Gates/bicycle-counts/tree/master/schemas). The schemas follow the [json table schema specification](http://specs.frictionlessdata.io/json-table-schema/).
 
