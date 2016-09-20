@@ -1,6 +1,6 @@
 SITE_ID,DESCRIPTION,MONTHS,YEARS,HOURS,SATURDAY,SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY
 1,"Gateway Motorway South, Murarrie",January,2016,0,0,0,0,1,1,1,1
-a,"Gateway Motorway South, Murarrie",January  ,2016,1,0,0,1,1,1,1,0
+2,"Gateway Motorway South, Murarrie",January,2016,1,0,0,1,1,1,1,0
 ,"Gateway Motorway South, Murarrie",January  ,2016,2,1,1,1,1,1,1,1
 9,,January  ,2016,3,1,40,0,0,0,0,0
 9,"Gateway Motorway South, Murarrie",Januar  ,2016,4,0,103,0,0,1,1,0
@@ -21,7 +21,7 @@ a,"Gateway Motorway South, Murarrie",January  ,2016,1,0,0,1,1,1,1,0
 -9,"Gateway Motorway South, Murarrie",January  ,2016,19,3,3,2,5,8,5,4
 9,"Gateway Motorway South, Murarrie",January  ,2016,20,0,1,2,2,3,2,2
 9,"Gateway Motorway South, Murarrie",January  ,2016,21,0,2,1,2,2,2,1
-9,"Gateway Motorway South, Murarrie",January  ,2016,22,0,0,1,0,1,0,0
+a ,"Gateway Motorway South, Murarrie",January  ,2016,22,0,0,1,0,1,0,0
 9,"Gateway Motorway South, Murarrie",January  ,2016,23,1,0,0,1,1,1,0
 9,"Gateway Motorway South, Murarrie",February,2016,0,1,2,0,0,1,0,1
 9,"Gateway Motorway South, Murarrie",February ,2016,1,0,0,0,1,0,1,0
