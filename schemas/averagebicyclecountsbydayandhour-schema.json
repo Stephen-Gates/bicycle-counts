@@ -20,10 +20,10 @@
         "name": "MONTHS",
         "title": "Month",
         "description": "Month data was collected in e.g. January",
-        "type": "date",
-        "format": "fmt:%M",
+        "type": "string",
         "constraints": {
-            "required": true
+            "required": true,
+            "pattern": "(January|February|March|April|May|June|July|August|September|October|November|December)"
         }
     }, {
         "name": "YEARS",
