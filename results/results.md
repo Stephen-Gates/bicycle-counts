@@ -3,7 +3,7 @@ Use the links below to perform the tests using Good Tables.
 
 ## Test using valid data and no schema
 - [Test Active-Transport-Sites.csv without a schema](http://goodtables.okfnlabs.org/reports?data_url=https%3A%2F%2Fraw.githubusercontent.com%2FStephen-Gates%2Fbicycle-counts%2Fmaster%2Fdata%2FActive-Transport-Sites.csv&format=csv&encoding=&schema_url=)
-- [Test averagebicyclecountsbydayandhour.csv without a schema](http://goodtables.okfnlabs.org/reports?data_url=https%3A%2F%2Fraw.githubusercontent.com%2FStephen-Gates%2Fbicycle-counts%2Fmaster%2Fdata%2Faveragebicyclecountsbydayandhour.csv&format=csv&encoding=&schema_url=) - incorrectly reports duplicates (add primary key)
+- [Test averagebicyclecountsbydayandhour.csv without a schema](http://goodtables.okfnlabs.org/reports?data_url=https%3A%2F%2Fraw.githubusercontent.com%2FStephen-Gates%2Fbicycle-counts%2Fmaster%2Fdata%2Faveragebicyclecountsbydayandhour.csv&format=csv&encoding=&schema_url=) - incorrectly reports duplicates despite primary key.
 
 
 ## Test using valid data with its schema
