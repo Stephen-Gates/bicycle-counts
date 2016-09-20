@@ -18,7 +18,7 @@
         }
     }, {
         "name": "MONTHS",
-        "title": "Month"
+        "title": "Month",
         "description": "Month data was collected in e.g. January",
         "type": "date",
         "format": "fmt:%M",
@@ -47,7 +47,7 @@
     }, {
         "name": "SATURDAY",
         "title": "Saturday",
-        "description": "Average amount of bicycle counts that was recorded on this day and time. Can be null if there is a error recording data.",
+        "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
         "type": "integer",
         "constraints": {
             "minimum": 0
@@ -55,7 +55,7 @@
     }, {
         "name": "SUNDAY",
         "title": "Sunday",
-        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
         "type": "integer",
         "constraints": {
             "minimum": 0
@@ -63,7 +63,7 @@
     }, {
         "name": "MONDAY",
         "title": "Monday",
-        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
         "type": "integer",
         "constraints": {
             "minimum": 0
@@ -71,7 +71,7 @@
     }, {
         "name": "TUESDAY",
         "title": "Tuesday",
-        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
         "type": "integer",
         "constraints": {
             "minimum": 0
@@ -79,7 +79,7 @@
     }, {
         "name": "WEDNESDAY",
         "title": "Wednesday",
-        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
         "type": "integer",
         "constraints": {
             "minimum": 0
@@ -87,7 +87,7 @@
     }, {
         "name": "THURSDAY",
         "title": "Thursday",
-        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
         "type": "integer",
         "constraints": {
             "minimum": 0
@@ -95,7 +95,7 @@
     }, {
         "name": "FRIDAY",
         "title": "Friday",
-        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
         "type": "integer",
         "constraints": {
             "minimum": 0
