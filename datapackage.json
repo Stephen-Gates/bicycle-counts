@@ -1,1 +1,184 @@
-{"name":"average-bicycle-counts","title":"Average Bicycle Counts by Day and Hour—January 2016 to June 2016","description":"Bicycle data from active transport sites installed by TMR. Data is by hour and day of the week. ","homepage":"https://data.qld.gov.au/dataset/average-bicycle-counts-by-day-and-hour","version":"1","license":{"type":"Creative Commons Attribution","url":"http://creativecommons.org/licenses/by/3.0/au/"},"resources":[{"name":"active-transport-sites","title":"Active Transport Sites","description":"Sites from which bicycle count data was gathered","schema":{"fields":[{"name":"SITE_ID","type":"integer","format":"default"},{"name":"DESCRIPTION","type":"string","format":"default"},{"name":"LONGITUDE","type":"number","format":"default"},{"name":"LATITUDE","type":"number","format":"default"}]},"url":"http://gobetween.oklabs.org/pipe/http%3A%2F%2Fwww.tmr.qld.gov.au%2F-%2Fmedia%2Faboutus%2Fcorpinfo%2FOpen%2520data%2Fbicyclecounts%2FActive-Transport-Sites.csv","format":"CSV","mediatype":"text/csv","bytes":0},{"name":"average-bicycle-counts-by-day-and-hour","title":"Average Bicycle Counts by Day and Hour—January 2016 to June 2016","description":"Bicycle data from active transport sites installed by TMR. Data is by hour and day of the week.","schema":{"fields":[{"name":"SITE_ID","type":"integer","format":"default"},{"name":"DESCRIPTION","type":"string","format":"default"},{"name":"MONTHS","type":"string","format":"default"},{"name":"YEARS","type":"integer","format":"default"},{"name":"HOURS","type":"integer","format":"default"},{"name":"SATURDAY","type":"integer","format":"default"},{"name":"SUNDAY","type":"integer","format":"default"},{"name":"MONDAY","type":"integer","format":"default"},{"name":"TUESDAY","type":"integer","format":"default"},{"name":"WEDNESDAY","type":"integer","format":"default"},{"name":"THURSDAY","type":"integer","format":"default"},{"name":"FRIDAY","type":"integer","format":"default"}]},"url":"http://gobetween.oklabs.org/pipe/http%3A%2F%2Fwww.tmr.qld.gov.au%2F-%2Fmedia%2Faboutus%2Fcorpinfo%2FOpen%2520data%2Fbicyclecounts%2Faveragebicyclecountsbydayandhour.csv","format":"CSV","mediatype":"text/csv","bytes":0}]}
+{
+    "name": "average-bicycle-counts",
+    "title": "Average Bicycle Counts by Day and Hour—January 2016 to June 2016",
+    "description": "Bicycle data from active transport sites installed by TMR. Data is by hour and day of the week. ",
+    "homepage": "https://data.qld.gov.au/dataset/average-bicycle-counts-by-day-and-hour",
+    "version": "1",
+    "license": {
+        "type": "Creative Commons Attribution",
+        "url": "http://creativecommons.org/licenses/by/3.0/au/"
+    },
+    "resources": [{
+        "name": "active-transport-sites",
+        "title": "Active Transport Sites",
+        "description": "Sites from which bicycle count data was gathered",
+        "schema": {
+            "fields": [{
+                "name": "SITE_ID",
+                "title": "Site Identifier",
+                "description": "A unique identifier for each data collection site",
+                "type": "integer",
+                "format": "default",
+                "constraints": {
+                  "required": true,
+                  "unique": true,
+                  "minimum": 0
+                }
+            }, {
+                "name": "DESCRIPTION",
+                "title": "Site Description",
+                "description": "A descriptive name for the data collection site",
+                "type": "string",
+                "format": "default",
+                "constraints": {
+                  "required": true
+                }
+            }, {
+                "name": "LONGITUDE",
+                "title": "Longitude",
+                "description": "A Latitude for the site within Queensland",
+                "type": "number",
+                "format": "default",
+                "constraints": {
+                  "required": true,
+                  "minimum": 130,
+                  "maximum": 155
+                }
+            }, {
+                "name": "LATITUDE",
+                "title": "Latitude",
+                "description": "A Latitude for the site within Queensland",
+                "type": "number",
+                "format": "default",
+                "constraints": {
+                  "required": true,
+                  "minimum": -29.5,
+                  "maximum": -9
+                }
+            }],
+            "primaryKey": "SITE_ID"
+        }
+,
+        "url": "http://gobetween.oklabs.org/pipe/http%3A%2F%2Fwww.tmr.qld.gov.au%2F-%2Fmedia%2Faboutus%2Fcorpinfo%2FOpen%2520data%2Fbicyclecounts%2FActive-Transport-Sites.csv",
+        "format": "CSV",
+        "mediatype": "text/csv",
+        "bytes": 0
+    }, {
+        "name": "average-bicycle-counts-by-day-and-hour",
+        "title": "Average Bicycle Counts by Day and Hour—January 2016 to June 2016",
+        "description": "Bicycle data from active transport sites installed by TMR. Data is by hour and day of the week.",
+        "schema": {
+            "fields": [{
+                "name": "SITE_ID",
+                "title": "Site Identifier",
+                "description": "A unique identifier for each data collection site",
+                "type": "integer",
+                "constraints": {
+                    "required": true,
+                    "minimum": 0
+                }
+            }, {
+                "name": "DESCRIPTION",
+                "title": "Site Description",
+                "description": "A descriptive name for the data collection site",
+                "type": "string",
+                "constraints": {
+                    "required": true
+                }
+            }, {
+                "name": "MONTHS",
+                "title": "Month",
+                "description": "Month data was collected in e.g. January",
+                "type": "string",
+                "constraints": {
+                    "required": true
+                }
+            }, {
+                "name": "YEARS",
+                "title": "Year",
+                "description": "Year data was collected in e.g. 2016",
+                "type": "date",
+                "format": "fmt:%Y",
+                "constraints": {
+                    "required": true
+                }
+            }, {
+                "name": "HOURS",
+                "title": "Hour",
+                "description": "Hour data was collected in e.g. 0..23",
+                "type": "integer",
+                "constraints": {
+                    "required": true,
+                    "minimum": 0,
+                    "maximum": 23
+                }
+            }, {
+                "name": "SATURDAY",
+                "title": "Saturday",
+                "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
+                "type": "integer",
+                "constraints": {
+                    "minimum": 0
+                }
+            }, {
+                "name": "SUNDAY",
+                "title": "Sunday",
+                "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
+                "type": "integer",
+                "constraints": {
+                    "minimum": 0
+                }
+            }, {
+                "name": "MONDAY",
+                "title": "Monday",
+                "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
+                "type": "integer",
+                "constraints": {
+                    "minimum": 0
+                }
+            }, {
+                "name": "TUESDAY",
+                "title": "Tuesday",
+                "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
+                "type": "integer",
+                "constraints": {
+                    "minimum": 0
+                }
+            }, {
+                "name": "WEDNESDAY",
+                "title": "Wednesday",
+                "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
+                "type": "integer",
+                "constraints": {
+                    "minimum": 0
+                }
+            }, {
+                "name": "THURSDAY",
+                "title": "Thursday",
+                "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
+                "type": "integer",
+                "constraints": {
+                    "minimum": 0
+                }
+            }, {
+                "name": "FRIDAY",
+                "title": "Friday",
+                "description": "Average amount of bicycle counts that were recorded at this site on this day and time. Can be null if there is a error recording data.",
+                "type": "integer",
+                "constraints": {
+                    "minimum": 0
+                }
+            }],
+            "primaryKey": [
+                "SITE_ID",
+                "MONTHS",
+                "YEARS",
+                "HOURS"
+            ]
+        },
+        "url": "http://gobetween.oklabs.org/pipe/http%3A%2F%2Fwww.tmr.qld.gov.au%2F-%2Fmedia%2Faboutus%2Fcorpinfo%2FOpen%2520data%2Fbicyclecounts%2Faveragebicyclecountsbydayandhour.csv",
+        "format": "CSV",
+        "mediatype": "text/csv",
+        "bytes": 0
+    }]
+}
