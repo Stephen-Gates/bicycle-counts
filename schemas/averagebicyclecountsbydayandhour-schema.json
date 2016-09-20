@@ -22,8 +22,7 @@
         "description": "Month data was collected in e.g. January",
         "type": "string",
         "constraints": {
-            "required": true,
-            "pattern": "(January|February|March|April|May|June|July|August|September|October|November|December)"
+            "required": true
         }
     }, {
         "name": "YEARS",
