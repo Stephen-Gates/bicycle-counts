@@ -1,1 +1,45 @@
-{"name":"x","title":"X","description":"x","resources":[{"name":"active-transport-sites-original","title":"Active Transport Sites Original","schema":{"fields":[{"name":"SITE_ID","type":"integer","format":"default"},{"name":"DESCRIPTION","type":"string","format":"default"},{"name":"LONGITUDE","type":"number","format":"default"},{"name":"LATITUDE","type":"number","format":"default"}]},"path":"active-transport-sites-original.csv","format":"CSV","mediatype":"text/csv","bytes":0}]}
+{
+    "fields": [{
+        "name": "SITE_ID",
+        "title": "Site Identifier",
+        "description": "A unique identifier for each data collection site",
+        "type": "integer",
+        "format": "default",
+        "constraints": {
+          "required": true,
+          "unique": true,
+          "minimum": 0
+        }
+    }, {
+        "name": "DESCRIPTION",
+        "title": "Site Description",
+        "description": "A descriptive name for the data collection site",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+    }, {
+        "name": "LONGITUDE",
+        "title": "Longitude",
+        "description": "A Latitude for the site within Queensland",
+        "type": "number",
+        "format": "default",
+        "constraints": {
+          "required": true,
+          "minimum": 130,
+          "maximum": 155
+        }
+    }, {
+        "name": "LATITUDE",
+        "title": "Latitude",
+        "description": "A Latitude for the site within Queensland",
+        "type": "number",
+        "format": "default",
+        "constraints": {
+          "required": true,
+          "minimum": -29.5,
+          "maximum": -9
+        }
+    }]
+}

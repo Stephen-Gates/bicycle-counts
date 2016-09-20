@@ -31,6 +31,7 @@ The [results](https://github.com/Stephen-Gates/bicycle-counts/blob/master/result
 Good Tables doesn't check all types of errors (yet). Somethings not checked include:
 - Foreign keys. (See Good Tables [#17](https://github.com/frictionlessdata/goodtables/issues/17),  [#8](https://github.com/frictionlessdata/goodtables/issues/8))
 - Some constraints (See Good Tables[#55](https://github.com/frictionlessdata/goodtables/issues/55))
+
 ## Schemas
 The [schemas](https://github.com/Stephen-Gates/bicycle-counts/tree/master/schemas) were created using [Data Packagist](http://datapackagist.okfnlabs.org). Using Data Packagist:
 
