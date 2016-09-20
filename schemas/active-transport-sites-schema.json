@@ -41,5 +41,6 @@
           "minimum": -29.5,
           "maximum": -9
         }
-    }]
+    }],
+    "primaryKey": "SITE_ID"
 }

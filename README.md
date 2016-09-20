@@ -10,7 +10,7 @@ The data is collected from bicycle counters across 14 active transport sites. As
 The [data](https://github.com/Stephen-Gates/bicycle-counts/tree/master/data) is made up of two of files.
 
 1. [Average Bicycle Counts by Day and Hour](https://data.qld.gov.au/dataset/average-bicycle-counts-by-day-and-hour/resource/48adfb7a-28d1-4b00-9330-fc73c9ecbdf2), by Transport and Main Roads, Queensland Government, licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/au/) sourced on 20 September 2016.
-2. [Active transport sites API](https://data.qld.gov.au/dataset/average-bicycle-counts-by-day-and-hour/resource/6b22171f-fb7a-477c-8225-654b118533cd), by Transport and Main Roads, Queensland Government, Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/au/) sourced on 20 September 2016
+2. [Active transport sites API](https://data.qld.gov.au/dataset/average-bicycle-counts-by-day-and-hour/resource/6b22171f-fb7a-477c-8225-654b118533cd), by Transport and Main Roads, Queensland Government, [Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/au/) sourced on 20 September 2016
 
 Each data file is defined by a [schema](https://github.com/Stephen-Gates/bicycle-counts/tree/master/schemas). The schemas follow the [json table schema specification](http://specs.frictionlessdata.io/json-table-schema/).
 
@@ -30,7 +30,7 @@ The [results](https://github.com/Stephen-Gates/bicycle-counts/blob/master/result
 
 Good Tables doesn't check all types of errors (yet). Somethings not checked include:
 - Foreign keys. (See Good Tables [#17](https://github.com/frictionlessdata/goodtables/issues/17),  [#8](https://github.com/frictionlessdata/goodtables/issues/8))
-- Some constraints (See Good Tables[#55](https://github.com/frictionlessdata/goodtables/issues/55))
+- Some constraints (See Good Tables [#55](https://github.com/frictionlessdata/goodtables/issues/55))
 
 ## Schemas
 The [schemas](https://github.com/Stephen-Gates/bicycle-counts/tree/master/schemas) were created using [Data Packagist](http://datapackagist.okfnlabs.org). Using Data Packagist:
