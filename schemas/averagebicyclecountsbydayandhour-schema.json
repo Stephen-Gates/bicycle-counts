@@ -1,111 +1,110 @@
 {
-  "fields": [
-    {
-      "name": "SITE_ID",
-      "description": "ID number of each site collecting data",
-      "type": "integer",
-      "constraints": {
-        "required": true,
-        "minimum": 0
-      }
-    },
-    {
-      "name": "DESCRIPTION",
-      "description": "Site description",
-      "type": "string",
-      "constraints": {
-        "required": true
-      }
-    },
-    {
-      "name": "MONTHS",
-      "description": "Month data was collected in e.g. January",
-      "type": "date",
-	  "format": "fmt:%M",
-      "constraints": {
-        "required": true
-      }
-    },
-    {
-      "name": "YEARS",
-      "description": "Year data was collected in e.g. 2016",
-      "type": "date",
-      "format": "fmt:%Y",
-      "constraints": {
-        "required": true
-      }
-    },
-    {
-      "name": "HOURS",
-      "description": "Hour data was collected in e.g. 0..23",
-      "type": "integer",
-      "constraints": {
-        "required": true,
-        "minimum": 0,
-        "maximum": 23
-      }
-    },
-    {
-      "name": "SATURDAY",
-      "description": "Average amount of bicycle counts that was recorded on this day and time. Can be null if there is a error recording data.",
-      "type": "integer",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "SUNDAY",
-      "description": "Average amount of bicycle counts that was recorded on this day and time",
-      "type": "integer",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "MONDAY",
-      "description": "Average amount of bicycle counts that was recorded on this day and time",
-      "type": "integer",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "TUESDAY",
-      "description": "Average amount of bicycle counts that was recorded on this day and time",
-      "type": "integer",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "WEDNESDAY",
-      "description": "Average amount of bicycle counts that was recorded on this day and time",
-      "type": "integer",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "THURSDAY",
-      "description": "Average amount of bicycle counts that was recorded on this day and time",
-      "type": "integer",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "FRIDAY",
-      "description": "Average amount of bicycle counts that was recorded on this day and time",
-      "type": "integer",
-      "constraints": {
-        "minimum": 0
-      }
-    }
-  ],
-  "primaryKey": [
-    "SITE_ID",
-    "MONTHS",
-    "YEARS",
-    "HOURS"
-  ]
+    "fields": [{
+        "name": "SITE_ID",
+        "title": "Site Identifier",
+        "description": "A unique identifier for each data collection site",
+        "type": "integer",
+        "constraints": {
+            "required": true,
+            "minimum": 0
+        }
+    }, {
+        "name": "DESCRIPTION",
+        "title": "Site Description",
+        "description": "A descriptive name for the data collection site",
+        "type": "string",
+        "constraints": {
+            "required": true
+        }
+    }, {
+        "name": "MONTHS",
+        "title": "Month"
+        "description": "Month data was collected in e.g. January",
+        "type": "date",
+        "format": "fmt:%M",
+        "constraints": {
+            "required": true
+        }
+    }, {
+        "name": "YEARS",
+        "title": "Year",
+        "description": "Year data was collected in e.g. 2016",
+        "type": "date",
+        "format": "fmt:%Y",
+        "constraints": {
+            "required": true
+        }
+    }, {
+        "name": "HOURS",
+        "title": "Hour",
+        "description": "Hour data was collected in e.g. 0..23",
+        "type": "integer",
+        "constraints": {
+            "required": true,
+            "minimum": 0,
+            "maximum": 23
+        }
+    }, {
+        "name": "SATURDAY",
+        "title": "Saturday",
+        "description": "Average amount of bicycle counts that was recorded on this day and time. Can be null if there is a error recording data.",
+        "type": "integer",
+        "constraints": {
+            "minimum": 0
+        }
+    }, {
+        "name": "SUNDAY",
+        "title": "Sunday",
+        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "type": "integer",
+        "constraints": {
+            "minimum": 0
+        }
+    }, {
+        "name": "MONDAY",
+        "title": "Monday",
+        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "type": "integer",
+        "constraints": {
+            "minimum": 0
+        }
+    }, {
+        "name": "TUESDAY",
+        "title": "Tuesday",
+        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "type": "integer",
+        "constraints": {
+            "minimum": 0
+        }
+    }, {
+        "name": "WEDNESDAY",
+        "title": "Wednesday",
+        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "type": "integer",
+        "constraints": {
+            "minimum": 0
+        }
+    }, {
+        "name": "THURSDAY",
+        "title": "Thursday",
+        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "type": "integer",
+        "constraints": {
+            "minimum": 0
+        }
+    }, {
+        "name": "FRIDAY",
+        "title": "Friday",
+        "description": "Average amount of bicycle counts that was recorded on this day and time",
+        "type": "integer",
+        "constraints": {
+            "minimum": 0
+        }
+    }],
+    "primaryKey": [
+        "SITE_ID",
+        "MONTHS",
+        "YEARS",
+        "HOURS"
+    ]
 }
