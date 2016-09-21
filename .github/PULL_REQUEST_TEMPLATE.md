@@ -1,19 +1,20 @@
-# Proposed change
-
-Add a description of the changes proposed in this pull request.
+`Add a description of the changes you propose in this pull request.`
 
 
-## Code Contribution Licence
-If you contribute code via this Pull Request, you agree to publish your contribution under an [MIT license](https://theodi.mit-license.org/)
+----
 
-## Data Contribution Licence
+### Data Contribution License
 
-If you used your skill, creativity or judgement to contribute data, then copyright may subsist in the data. For example, judgement, skill or creativity may be in writing a description or selecting a subset of data to include. 
+By submitting data via this Pull Request, you agree to publish your contribution under the [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
-If you are contributing data via this pull request, you need to provide it under an [open licence](http://opendefinition.org/licenses/) or transfer or waive your rights to the data so we can publish it here.
+Your contribution, if accepted, will be acknowledged on the [Closed Pull Request](https://github.com/Stephen-Gates/bicycle-counts/pulls?q=is%3Apr+is%3Aclosed) page.
 
-Don't worry, it's not hard. 
+#### Why do we require a license?
 
-By submitting this Pull Request, you agree to publish your contribution under the [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) licence.
-Your contribution, if accepted, will be acknowledge on the [Closed Pull Request](https://github.com/Stephen-Gates/bicycle-counts/pulls?q=is%3Apr+is%3Aclosed) page.
+Copyright may subsist in the data if you used your skill, creativity or judgement to create it. For example, your skill, creativity or judgement may be in writing a description or selecting a subset of data to include. 
+
+As there may be copyright in the data, we require you to provide it under an [open licence](http://opendefinition.org/licenses/) or transfer or waive your rights so we can legally publish it here.
+
+
+
 
