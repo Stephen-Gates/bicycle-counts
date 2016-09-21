@@ -1,4 +1,5 @@
-`Add a description of the changes you propose in this pull request.`
+:+1::tada: First off, thanks for taking the time to contribute! :tada::+1: 
+Delete this text and a description of the changes you propose in this pull request.
 
 
 ----
