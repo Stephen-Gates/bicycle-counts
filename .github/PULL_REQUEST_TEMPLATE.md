@@ -1,5 +1,5 @@
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1: 
-Delete this text and a description of the changes you propose in this pull request.
+Delete this text and add a description of the changes you propose in this pull request.
 
 
 ----
