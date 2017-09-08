@@ -59,7 +59,7 @@
             "primaryKey": "SITE_ID"
         }
 ,
-        "url": "http://www.tmr.qld.gov.au/-/media/aboutus/corpinfo/Open%20data/bicyclecounts/Active-Transport-Sites.csv",
+        "path": "data/Active-Transport-Sites.csv",
         "format": "CSV",
         "mediatype": "text/csv",
         "bytes": 0
@@ -176,7 +176,7 @@
                 "HOURS"
             ]
         },
-        "url": "http://www.tmr.qld.gov.au/-/media/aboutus/corpinfo/Open%20data/bicyclecounts/averagebicyclecountsbydayandhour.csv",
+        "path": "data/averagebicyclecountsbydayandhour.csv",
         "format": "CSV",
         "mediatype": "text/csv",
         "bytes": 0
