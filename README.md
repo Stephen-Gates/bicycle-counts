@@ -1,5 +1,7 @@
 # Average Bicycle Counts by Day and Hour
 
+[![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/bicycle-counts.svg)](https://goodtables.io/github/Stephen-Gates/bicycle-counts)
+
 This dataset contains average counts of bicycle traffic by hour of the day and day of the week. It includes the location of data collection sites.
 
 The data is a snapshot and not planned to be kept up-to-date. The main purpose of this repository is to develop a data package and schemas for this dataset.
@@ -31,6 +33,10 @@ The [results](https://github.com/Stephen-Gates/bicycle-counts/blob/master/result
 Good Tables doesn't check all types of errors (yet). Somethings not checked include:
 - Foreign keys. (See Good Tables [#17](https://github.com/frictionlessdata/goodtables/issues/17),  [#8](https://github.com/frictionlessdata/goodtables/issues/8))
 - Some constraints (See Good Tables [#55](https://github.com/frictionlessdata/goodtables/issues/55))
+
+### Continuous Testing
+[GoodTables.io](http://goodtables.io/) provides continuous data testing. Everytime there's a change in this repository the tests are re-run.
+Here's the latest results [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/bicycle-counts.svg)](https://goodtables.io/github/Stephen-Gates/bicycle-counts)
 
 ## Schemas
 The [schemas](https://github.com/Stephen-Gates/bicycle-counts/tree/master/schemas) were created using [Data Packagist](http://datapackagist.okfnlabs.org). Using Data Packagist:
