@@ -36,7 +36,8 @@ Good Tables doesn't check all types of errors (yet). Somethings not checked incl
 
 ### Continuous Testing
 [GoodTables.io](http://goodtables.io/) provides continuous data testing. Everytime there's a change in this repository the tests are re-run.
-Here's the latest results [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/bicycle-counts.svg)](https://goodtables.io/github/Stephen-Gates/bicycle-counts)
+Here's the latest results:
+[![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/bicycle-counts.svg)](https://goodtables.io/github/Stephen-Gates/bicycle-counts)
 
 ## Schemas
 The [schemas](https://github.com/Stephen-Gates/bicycle-counts/tree/master/schemas) were created using [Data Packagist](http://datapackagist.okfnlabs.org). Using Data Packagist:
